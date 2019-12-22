@@ -1,5 +1,5 @@
 # Database Systems (Car Dealership - Final Project)
-My final project for Database Systems class in my university. The database's topic is car dealership, and contains the ERD, Schema, sample SQL, and the final report.
+My final project for Database Systems class in my university. The database's topic is car dealership, and contains the ERD, Schema, and the sample SQL.
 
 # Architecture / Philosophies
 - Structured Query Language
@@ -52,7 +52,7 @@ My final project for Database Systems class in my university. The database's top
 - The trigger is used before update on Order Mobil table. If a customer tried to purchase a vehicle without having sufficient funds (down payments), then the trigger will reject the purchase. If having sufficient funds, then the trigger will store the results in a separate table.
 
 # Installations and Usage
-Simply copy and paste the .txt file into your MariaDB / MySQL / XAMPP, then watch as the magic unfolds.
+Simply copy and paste the .sql file into your MariaDB / MySQL / XAMPP, then watch as the magic unfolds.
 
 # Bugs
 None found for now.
